@@ -1,3 +1,18 @@
-body{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0084fd;
+    color: white;
+    height: 37px;
+    padding: 7px 7px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
