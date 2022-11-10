@@ -1,3 +1,6 @@
+
+/* UTILITIES */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +12,18 @@
 .col-lg, .col, .testimonials, .col-16, .col-33, .last-main{
     padding: 20px 20px;
 }
+h4{
+    color: #0084fd;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+p{
+    color: #5a6e7f;
+    text-align: justify;
+}
+
+/* --------------> */
 
 /* HEADER */
 
@@ -35,13 +50,30 @@ header{
 
 .margin-small{
     width: 80%;
-    height: 780px;
+    height: 690px;
     margin: 0 auto;
 }
 .col-lg{
     background-color: #b5ddff;
-    height: 690px;
+    height: 515px;
     border-radius: 10%;
+}
+.btn-general{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    width: 50%;
+    color: white;
+    background-color: #0084fd;
+    border-radius: 40px;
+    padding: 10px 10px 10px 10px;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.img-phone{
+    position: relative;
+    top: 57px;
+    left: 65px;
+    width: 225px;
 }
 .col{
     background-color:  #b5ddff;
@@ -49,7 +81,19 @@ header{
     margin: 10px 0;
     border-radius: 10%;
 }
-
+.col h4{
+    position: relative;
+    top: 50px;
+}
+.col p{
+    text-align: center;
+    padding-top: 50px;
+}
+.col i{
+   position: relative;
+   left: 150px;
+    color: #0084fd;
+}
 /* MAIN CONTENT-SEZIONE 2 */
 
 .container-main-2{
