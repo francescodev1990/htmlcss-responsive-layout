@@ -18,6 +18,13 @@ h4{
     font-size: 17px;
     padding-bottom: 35px;
 }
+h3{
+    font-size: 29px;
+    position: relative;
+    top: 130px;
+    color: white;
+}
+
 p{
     color: #5a6e7f;
     text-align: justify;
@@ -97,18 +104,37 @@ header{
 
 .container-main-2{
     position: relative;
-    height: 1000px;
+    height: 1250px;
     background-color: #9792e4;
     margin-top: 50px;
+    width: 100%;
 }
 .col-50{
-    height: 50%;
+    height: 500px;
     padding: 150px 150px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
+.col-51{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 600px;
+    padding: 150px 150px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.img-planning2{
+    width: 250px;
+    position: relative;
+    bottom: 135px;
+}
+
 .img-planning1{
     position: absolute;
-    top: 50px;
+    top: 34px;
     right: 40px;
     width: 300px;
 }
@@ -117,8 +143,8 @@ header{
     color: white;
     text-align: justify;
     position: absolute;
-    top: 350px;
-    right: 40px;
+    top: 414px;
+    right: 14px;
 }
 
 /* MAIN CONTENT-SEZIONE 3 MARGIN SMALL */
@@ -189,3 +215,4 @@ header{
     height: 250px;
     background-color: #333333;
 }
+
